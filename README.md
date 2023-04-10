@@ -120,51 +120,13 @@ SSAFY 8기 2학기 특화 프로젝트(빅데이터 추천)
 
 ## 사이트 기능 설명
 
-![main-nologin](https://user-images.githubusercontent.com/55802893/230857415-ba025d16-a710-4e62-986a-564102085b95.png)
-
--   로그인 하지 않은 사용자에게 랭킹순 추천
--   페이지 상단 기상청 날씨 api 정보를 통한 술, 안주 추천
--   커스텀 칵테일 랜덤 추천
-
-![login-recomm-list](https://user-images.githubusercontent.com/55802893/230857701-6d269101-a3a5-431a-bdcf-7be0942e9c63.png)
-
--   로그인한 사용자에게 사용자 취향 기반 주류추천
--   평점을 부여하지 않은 주종에 대해서 취향 설문 기반 추천
--   평점을 남긴 주종에 대해서 평점 높은 술과 유사한 술 추천
--   전체 주류확인 가능
--   주류 스크랩 기능
-
-![guide-login](https://user-images.githubusercontent.com/55802893/230858007-cdf56e8a-88e8-4276-9223-59fb70003860.png)
-
--   주종별 술을 즐기는 방법에 대한 설명
--   google, kakao social login
-
-![feed-list](https://user-images.githubusercontent.com/55802893/230858364-05d1753a-2f75-4688-ad6d-f025144d1f18.png)
-
--   사용자들의 리뷰, 레시피, 질문글 리스트와 상세보기
-
-![feed](https://user-images.githubusercontent.com/55802893/230858774-9dbc7fca-458d-4c38-a394-25cf7e5e8509.png)
-
--   세 가지 글 작성 기능
--   사진 추가 및 데이터베이스 내 주류 검색 기능
--   술에 대한 평점 부여
--   글 공개, 비공개 선택 기능
-
-![receipe](https://user-images.githubusercontent.com/55802893/230859248-a75be3fb-9b88-4220-b5d0-64816314454c.png)
-
--   커스텀 칵테일 레시피 작성 기능
--   재료 입력, 칵테일에 대한 주관적인 맛 평가
--   레시피 작성
-
-![hometender](https://user-images.githubusercontent.com/55802893/230859825-59055e17-cbff-46bd-b7e8-689cc39dcc2f.png)
-
--   커스텀 칵테일 리스트
--   랭킹순 및 취향 기반 커스텀 칵테일 추천
--   커스텀 칵테일 리스트 확인 기능
-
-![mypage](https://user-images.githubusercontent.com/55802893/230860348-a7910172-bd02-46ab-85a0-598c87e209e3.png)
-
--   mypage 확인 기능
--   캘린더에서 본인이 리뷰한 날짜에 주류 스탬프 찍기 기능
--   스크랩한 술 확인 기능
--   본인이 쓴 글 모아보기 기능
+|                                                            page                                                             | description                                                                                                                                                                                                            |
+| :-------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   ![main-nologin](https://user-images.githubusercontent.com/55802893/230857415-ba025d16-a710-4e62-986a-564102085b95.png)    | - 로그인 하지 않은 사용자에게 랭킹순 추천<br>- 패이지 상단 기상청 날씨 api 정보를 통한 술, 안주 추천<br>- 커스텀 칵테일 랜덤 추천                                                                                      |
+| ![login-recomm-list](https://user-images.githubusercontent.com/55802893/230857701-6d269101-a3a5-431a-bdcf-7be0942e9c63.png) | - 로그인한 사용자에게 사용자 취향 기반 주류추천<br>- 평점을 부여하지 않은 주종에 대해서 취향 설문 기반 추천<br>- 평점을 남긴 주종에 대해서 평점 높은 술과 유사한 술 추천<br>- 전체 주류확인 가능<br>- 주류 스크랩 기능 |
+|    ![guide-login](https://user-images.githubusercontent.com/55802893/230858007-cdf56e8a-88e8-4276-9223-59fb70003860.png)    | - 주종별 술을 즐기는 방법에 대한 설명<br>- google, kakao social login                                                                                                                                                  |
+|     ![feed-list](https://user-images.githubusercontent.com/55802893/230858364-05d1753a-2f75-4688-ad6d-f025144d1f18.png)     | - 사용자들의 리뷰, 레시피, 질문글 리스트와 상세보기                                                                                                                                                                    |
+|       ![feed](https://user-images.githubusercontent.com/55802893/230858774-9dbc7fca-458d-4c38-a394-25cf7e5e8509.png)        | - 세 가지 글 작성 기능<br>- 사진 추가 및 데이터베이스 내 주류 검색 기능<br>- 술에 대한 평점 부여<br>- 글 공개, 비공개 선택 기능                                                                                        |
+|      ![receipe](https://user-images.githubusercontent.com/55802893/230859248-a75be3fb-9b88-4220-b5d0-64816314454c.png)      | - 커스텀 칵테일 레시피 작성 기능<br>- 재료 입력, 칵테일에 대한 주관적인 맛 평가<br>- 레시피 작성                                                                                                                       |
+|    ![hometender](https://user-images.githubusercontent.com/55802893/230859825-59055e17-cbff-46bd-b7e8-689cc39dcc2f.png)     | - 커스텀 칵테일 리스트<br>- 랭킹순 및 취향 기반 커스텀 칵테일 추천<br>- 커스텀 칵테일 리스트 확인 기능                                                                                                                 |
+|      ![mypage](https://user-images.githubusercontent.com/55802893/230860348-a7910172-bd02-46ab-85a0-598c87e209e3.png)       | - mypage 확인 기능<br>- 캘린더에서 본인이 리뷰한 날짜에 주류 스탬프 찍기 기능<br>- 스크랩한 술 확인 기능<br>- 본인이 쓴 글 모아보기 기능                                                                               |
