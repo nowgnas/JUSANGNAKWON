@@ -37,7 +37,7 @@ spring:
         google:
           clientId: ${gclient.id}
           clientSecret: ${gclient.secret}
-          redirect-uri: 'https://j8a504.p.ssafy.io/s1/login/oauth2/code/google'
+          redirect-uri: 'https://jusangnakwon.duckdns.org/s1/login/oauth2/code/google'
           scope:
             - email
             - profile
@@ -46,7 +46,7 @@ spring:
           clientSecret: ${kclient.secret}
           clientAuthenticationMethod: post
           authorizationGrantType: authorization_code
-          redirectUri: "https://j8a504.p.ssafy.io/s1/login/oauth2/code/kakao"
+          redirectUri: "https://jusangnakwon.duckdns.org/s1/login/oauth2/code/kakao"
           scope:
             - profile_nickname
             - profile_image
