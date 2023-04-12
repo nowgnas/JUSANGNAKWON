@@ -1,5 +1,5 @@
 # JUSANGNAKWON - 사용자 취향 기반 주류 추천 플랫폼
-
+[주상낙원 바로가기](https://jusangnakwon.duckdns.org)
 SSAFY 8기 2학기 특화 프로젝트(빅데이터 추천)
 
 ### 프로젝트 진행 기간
